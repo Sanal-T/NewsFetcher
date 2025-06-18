@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest News Hub</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📰 Latest News Hub</h1>
+            <p class="subtitle">Stay informed with real-time news from around the world</p>
+        </header>
+
+        <div class="controls">
+            <button class="category-btn active" data-category="general">General</button>
+            <button class="category-btn" data-category="technology">Technology</button>
+            <button class="category-btn" data-category="business">Business</button>
+            <button class="category-btn" data-category="health">Health</button>
+            <button class="category-btn" data-category="sports">Sports</button>
+            <button class="category-btn" data-category="entertainment">Entertainment</button>
+        </div>
+
+        <div id="news-container">
+            <div class="loading">
+                <div class="spinner"></div>
+                <div class="loading-text">Loading latest news...</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
